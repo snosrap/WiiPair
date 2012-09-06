@@ -11,7 +11,6 @@
 
 int main(int argc, const char * argv[])
 {
-
     @autoreleasepool
     {
         WiiRemotePair *remote = [[WiiRemotePair alloc] init];
@@ -22,7 +21,7 @@ int main(int argc, const char * argv[])
         // Attempt to pair with new device (SYNC button must be pressed on device)
         [remote attemptPair];
 
-        // Wait for the pairing to complete
+        // Loop forever
         while ([[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]]);
     }
     return 0;
