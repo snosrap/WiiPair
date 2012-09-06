@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82DDAC2C15F94AC5009CFD98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DDAC2B15F94AC5009CFD98 /* Foundation.framework */; };
+		82DDAC2F15F94AC5009CFD98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DDAC2E15F94AC5009CFD98 /* main.m */; };
+		82DDAC3315F94AC5009CFD98 /* WiiPair.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 82DDAC3215F94AC5009CFD98 /* WiiPair.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		82DDAC2515F94AC5009CFD98 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				82DDAC3315F94AC5009CFD98 /* WiiPair.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		82DDAC2715F94AC5009CFD98 /* WiiPair */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WiiPair; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DDAC2B15F94AC5009CFD98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82DDAC2E15F94AC5009CFD98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82DDAC3115F94AC5009CFD98 /* WiiPair-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WiiPair-Prefix.pch"; sourceTree = "<group>"; };
+		82DDAC3215F94AC5009CFD98 /* WiiPair.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WiiPair.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82DDAC2415F94AC5009CFD98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DDAC2C15F94AC5009CFD98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82DDAC1C15F94AC5009CFD98 = {
+			isa = PBXGroup;
+			children = (
+				82DDAC2D15F94AC5009CFD98 /* WiiPair */,
+				82DDAC2A15F94AC5009CFD98 /* Frameworks */,
+				82DDAC2815F94AC5009CFD98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82DDAC2815F94AC5009CFD98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82DDAC2715F94AC5009CFD98 /* WiiPair */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82DDAC2A15F94AC5009CFD98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82DDAC2B15F94AC5009CFD98 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82DDAC2D15F94AC5009CFD98 /* WiiPair */ = {
+			isa = PBXGroup;
+			children = (
+				82DDAC2E15F94AC5009CFD98 /* main.m */,
+				82DDAC3215F94AC5009CFD98 /* WiiPair.1 */,
+				82DDAC3015F94AC5009CFD98 /* Supporting Files */,
+			);
+			path = WiiPair;
+			sourceTree = "<group>";
+		};
+		82DDAC3015F94AC5009CFD98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82DDAC3115F94AC5009CFD98 /* WiiPair-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82DDAC2615F94AC5009CFD98 /* WiiPair */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DDAC3615F94AC5009CFD98 /* Build configuration list for PBXNativeTarget "WiiPair" */;
+			buildPhases = (
+				82DDAC2315F94AC5009CFD98 /* Sources */,
+				82DDAC2415F94AC5009CFD98 /* Frameworks */,
+				82DDAC2515F94AC5009CFD98 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiiPair;
+			productName = WiiPair;
+			productReference = 82DDAC2715F94AC5009CFD98 /* WiiPair */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82DDAC1E15F94AC5009CFD98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Ford Parsons";
+			};
+			buildConfigurationList = 82DDAC2115F94AC5009CFD98 /* Build configuration list for PBXProject "WiiPair" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82DDAC1C15F94AC5009CFD98;
+			productRefGroup = 82DDAC2815F94AC5009CFD98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82DDAC2615F94AC5009CFD98 /* WiiPair */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82DDAC2315F94AC5009CFD98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DDAC2F15F94AC5009CFD98 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		82DDAC3415F94AC5009CFD98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82DDAC3515F94AC5009CFD98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		82DDAC3715F94AC5009CFD98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WiiPair/WiiPair-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82DDAC3815F94AC5009CFD98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WiiPair/WiiPair-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82DDAC2115F94AC5009CFD98 /* Build configuration list for PBXProject "WiiPair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DDAC3415F94AC5009CFD98 /* Debug */,
+				82DDAC3515F94AC5009CFD98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82DDAC3615F94AC5009CFD98 /* Build configuration list for PBXNativeTarget "WiiPair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DDAC3715F94AC5009CFD98 /* Debug */,
+				82DDAC3815F94AC5009CFD98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82DDAC1E15F94AC5009CFD98 /* Project object */;
+}
