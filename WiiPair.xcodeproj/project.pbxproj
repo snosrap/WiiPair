@@ -10,6 +10,8 @@
 		82DDAC2C15F94AC5009CFD98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DDAC2B15F94AC5009CFD98 /* Foundation.framework */; };
 		82DDAC2F15F94AC5009CFD98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DDAC2E15F94AC5009CFD98 /* main.m */; };
 		82DDAC3315F94AC5009CFD98 /* WiiPair.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 82DDAC3215F94AC5009CFD98 /* WiiPair.1 */; };
+		82DDAC3A15F94B31009CFD98 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DDAC3915F94B31009CFD98 /* IOBluetooth.framework */; };
+		82DDAC4515F94FCD009CFD98 /* WiiRemotePair.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DDAC4415F94FCD009CFD98 /* WiiRemotePair.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,9 @@
 		82DDAC2E15F94AC5009CFD98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		82DDAC3115F94AC5009CFD98 /* WiiPair-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WiiPair-Prefix.pch"; sourceTree = "<group>"; };
 		82DDAC3215F94AC5009CFD98 /* WiiPair.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WiiPair.1; sourceTree = "<group>"; };
+		82DDAC3915F94B31009CFD98 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		82DDAC4315F94FCD009CFD98 /* WiiRemotePair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiiRemotePair.h; sourceTree = "<group>"; };
+		82DDAC4415F94FCD009CFD98 /* WiiRemotePair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiiRemotePair.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82DDAC3A15F94B31009CFD98 /* IOBluetooth.framework in Frameworks */,
 				82DDAC2C15F94AC5009CFD98 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +54,7 @@
 		82DDAC1C15F94AC5009CFD98 = {
 			isa = PBXGroup;
 			children = (
+				82DDAC3915F94B31009CFD98 /* IOBluetooth.framework */,
 				82DDAC2D15F94AC5009CFD98 /* WiiPair */,
 				82DDAC2A15F94AC5009CFD98 /* Frameworks */,
 				82DDAC2815F94AC5009CFD98 /* Products */,
@@ -74,6 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				82DDAC2E15F94AC5009CFD98 /* main.m */,
+				82DDAC4315F94FCD009CFD98 /* WiiRemotePair.h */,
+				82DDAC4415F94FCD009CFD98 /* WiiRemotePair.m */,
 				82DDAC3215F94AC5009CFD98 /* WiiPair.1 */,
 				82DDAC3015F94AC5009CFD98 /* Supporting Files */,
 			);
@@ -140,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82DDAC2F15F94AC5009CFD98 /* main.m in Sources */,
+				82DDAC4515F94FCD009CFD98 /* WiiRemotePair.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
